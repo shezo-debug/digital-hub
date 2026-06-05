@@ -1,1 +1,223 @@
-# digital-hub
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Digital Hub</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:#f8fafc;
+color:#0f172a;
+}
+
+header{
+background:linear-gradient(135deg,#2563eb,#06b6d4,#8b5cf6);
+color:white;
+padding:80px 20px;
+text-align:center;
+}
+
+.profile{
+width:140px;
+height:140px;
+border-radius:50%;
+background:white;
+margin:auto;
+overflow:hidden;
+border:5px solid white;
+}
+
+.profile img{
+width:100%;
+height:100%;
+object-fit:cover;
+}
+
+h1{
+margin-top:20px;
+font-size:42px;
+}
+
+.tagline{
+margin-top:10px;
+opacity:.95;
+}
+
+.socials{
+margin-top:25px;
+display:flex;
+justify-content:center;
+gap:15px;
+flex-wrap:wrap;
+}
+
+.socials a{
+text-decoration:none;
+background:white;
+color:#2563eb;
+padding:10px 18px;
+border-radius:50px;
+font-weight:600;
+}
+
+section{
+max-width:1200px;
+margin:auto;
+padding:60px 20px;
+}
+
+.section-title{
+font-size:30px;
+margin-bottom:30px;
+text-align:center;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:25px;
+}
+
+.card{
+background:white;
+border-radius:20px;
+overflow:hidden;
+box-shadow:0 10px 25px rgba(0,0,0,.08);
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-8px);
+}
+
+.preview{
+height:180px;
+background:linear-gradient(135deg,#2563eb,#8b5cf6);
+}
+
+.content{
+padding:20px;
+}
+
+.content h3{
+margin-bottom:10px;
+}
+
+.btn{
+display:inline-block;
+margin-top:15px;
+background:#2563eb;
+color:white;
+padding:10px 18px;
+border-radius:10px;
+text-decoration:none;
+}
+
+footer{
+background:#0f172a;
+color:white;
+text-align:center;
+padding:25px;
+}
+</style>
+</head>
+<body>
+
+<header>
+
+<div class="profile">
+<img src="https://via.placeholder.com/300" alt="">
+</div>
+
+<h1>Digital Hub</h1>
+
+<p class="tagline">
+Discover, Create & Share Digital Experiences
+</p>
+
+<div class="socials">
+<a href="#">TikTok</a>
+<a href="#">YouTube</a>
+<a href="#">Facebook</a>
+<a href="#">Instagram</a>
+<a href="#">GitHub</a>
+</div>
+
+</header>
+
+<section>
+<h2 class="section-title">Featured Apps</h2>
+
+<div class="grid">
+
+<div class="card">
+<div class="preview"></div>
+<div class="content">
+<h3>App Name</h3>
+<p>Your app description here.</p>
+<a href="#" class="btn">Open</a>
+</div>
+</div>
+
+<div class="card">
+<div class="preview"></div>
+<div class="content">
+<h3>Another App</h3>
+<p>Your app description here.</p>
+<a href="#" class="btn">Open</a>
+</div>
+</div>
+
+</div>
+</section>
+
+<section>
+<h2 class="section-title">Websites</h2>
+
+<div class="grid">
+
+<div class="card">
+<div class="preview"></div>
+<div class="content">
+<h3>Website Name</h3>
+<p>Your website description.</p>
+<a href="#" class="btn">Visit</a>
+</div>
+</div>
+
+</div>
+</section>
+
+<section>
+<h2 class="section-title">Videos</h2>
+
+<div class="grid">
+
+<div class="card">
+<div class="preview"></div>
+<div class="content">
+<h3>Video Title</h3>
+<p>Video description.</p>
+<a href="#" class="btn">Watch</a>
+</div>
+</div>
+
+</div>
+</section>
+
+<footer>
+© 2026 Digital Hub • All Rights Reserved
+</footer>
+
+</body>
+</html>
